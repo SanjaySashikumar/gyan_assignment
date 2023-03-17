@@ -1,0 +1,29 @@
+nav{
+            height:150px;
+            background-color: darkolivegreen;
+        }
+        ul.nav {
+  padding-left: 0px;
+  
+  text-align: center;
+}
+div{
+    margin-top: 5px;
+}
+.txt{
+    position:absolute;
+    top:8px;
+    left:10px;
+}
+.cont{
+position:relative;
+text-align:center;
+color:white;
+}
+li{
+    display:inline;
+    font-size:25px;
+}
+a {
+  color: white;
+}
