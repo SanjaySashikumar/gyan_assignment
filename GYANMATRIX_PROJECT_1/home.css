@@ -1,15 +1,18 @@
 nav{
-            height:150px;
-            background-color: darkolivegreen;
+        
         }
-        ul.nav {
-  padding-left: 0px;
-  
-  text-align: center;
+
+.wrap{
+    height:35px;
+    background-color: darkolivegreen;
+    text-align: center;
 }
-div{
-    margin-top: 5px;
+.imag{
+    background-image:url("git_images/black_car.jpg");
+    width:100%;
+    height: 800px;
 }
+
 .txt{
     position:absolute;
     top:8px;
@@ -17,7 +20,7 @@ div{
 }
 .cont{
 position:relative;
-text-align:center;
+width:1200px;
 color:white;
 }
 li{
@@ -26,4 +29,9 @@ li{
 }
 a {
   color: white;
+  text-decoration: none;
+}
+a:hover{
+    background-color:black;
+    border-radius: 15%;
 }
