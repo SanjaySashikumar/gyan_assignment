@@ -3,9 +3,11 @@ nav{
         }
 
 .wrap{
-    height:35px;
+    height:70px;
     background-color: darkolivegreen;
-    text-align: center;
+    
+    margin:0 auto;
+    width: 1000px;
 }
 .imag{
     background-image:url("git_images/black_car.jpg");
@@ -15,7 +17,6 @@ nav{
 
 .txt{
     position:absolute;
-    top:8px;
     left:10px;
 }
 .cont{
@@ -25,7 +26,7 @@ color:white;
 }
 li{
     display:inline;
-    font-size:25px;
+    font-size:20px;
 }
 a {
   color: white;
@@ -33,5 +34,14 @@ a {
 }
 a:hover{
     background-color:black;
+    opacity:40%;
     border-radius: 15%;
+}
+
+
+
+
+.para{
+    background-color: white;
+    height:700px;
 }
