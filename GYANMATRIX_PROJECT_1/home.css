@@ -57,3 +57,13 @@ a:hover{
     background-color: white;
     height:700px;
 }
+
+table,td,th{
+    position:relative;
+    margin:25%;
+    border-radius: 20%;
+    text-align: center;
+    border:2px solid black;
+    border-radius:2px ;
+    font-size: 20px;
+}
