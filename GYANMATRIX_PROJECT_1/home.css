@@ -1,69 +1,39 @@
-nav{
-        
-        }
-
-.wrap{
-    height:70px;
-    background-color: darkolivegreen;
-    
-    margin:0 auto;
-    width: 1000px;
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
 }
-.imag{
-    background-image:url("git_images/black_car.jpg");
+body{
+    background: #080808;
+    color: #fff;
+}
+#header{
     width:100%;
-    height: 800px;
+    height:100vh;
+    background-image: url(images/black_car.jpg);
+    background-size: cover;
+    background-position: center;
 }
-
-.txt{
-    position:absolute;
-    left:10px;
+.container{
+padding: 10px 10%;
 }
-.cont{
-position:relative;
-width:1200px;
-color:white;
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-li{
-    display:inline;
-    font-size:20px;
+.logo{
+    width:140px;
 }
-a {
-  color: white;
-  text-decoration: none;
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
 }
-a:hover{
-    background-color:black;
-    opacity:40%;
-    border-radius: 15%;
-}
-
-
-.cont::after{
-    content: '';
-    height:3px;
-    width: 0;
-    background:#009688;
-    position:absolute;
-    left:0;
-    bottom:-65px;
-    transition:0.5s;
-}
-.cont:hover::after{
-    width:83.3%;
-}
-
-.para{
-    background-color: white;
-    height:700px;
-}
-
-table,td,th{
-    position:relative;
-    margin:25%;
-    border-radius: 20%;
-    text-align: center;
-    border:2px solid black;
-    border-radius:2px ;
-    font-size: 20px;
+nav ul li a{
+    color: white;
+    text-decoration:none;
+    font-size:18px;
 }
